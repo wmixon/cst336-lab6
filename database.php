@@ -8,9 +8,9 @@ function getDatabaseConnection()
     // $dbname="tech_devices_app";
     
     $host = "us-cdbr-iron-east-05.cleardb.net";
-    $username = "bdb5384f6f52f0";
-    $password = "caeb83fc";
-    $dbname = "heroku_e85b7747a279cb7";
+    $username = "be38fd891d40b6";
+    $password = "40d33621";
+    $dbname = "heroku_e2089215ec11dea";
 
 // Create connection
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
